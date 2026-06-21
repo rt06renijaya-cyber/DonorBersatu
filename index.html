@@ -415,7 +415,19 @@
 
         <div class="form-group">
             <label for="pekerjaan">Pekerjaan *</label>
-            <input type="text" id="pekerjaan" placeholder="Pekerjaan saat ini" required>
+            <select id="pekerjaan" required>
+                <option value="" disabled selected>Pilih pekerjaan saat ini—</option>
+                <option value="PNS / TNI / POLRI">PNS / TNI / POLRI</option>
+                <option value="Karyawan BUMN">Karyawan BUMN</option>
+                <option value="Karyawan BUMD">Karyawan BUMD</option>
+                <option value="Karyawan Swasta">Karyawan Swasta</option>
+                <option value="Wiraswasta / Pengusaha">Wiraswasta / Pengusaha</option>
+                <option value="Buruh / Pekerja Harian">Buruh / Pekerja Harian</option>
+                <option value="Ibu Rumah Tangga">Ibu Rumah Tangga</option>
+                <option value="Mahasiswa / Pelajar">Mahasiswa / Pelajar</option>
+                <option value="Belum / Tidak Bekerja">Belum / Tidak Bekerja</option>
+                <option value="Lainnya">Lainnya</option>
+            </select>
         </div>
 
         <div class="form-group">
